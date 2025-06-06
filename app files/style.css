@@ -54,6 +54,11 @@ body{
     margin-top: 120px;
 }
 
+#main-home img{
+    width: 100vw;
+    height: 85vh;
+}
+
 /*===============BOTTOM-TABS==============*/
 
 #tabs-bottom{
@@ -85,8 +90,15 @@ body{
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
     background-size: 100%;
-    height: 100vh;
+    height: 120vh;
 
+}
+
+#main-places{
+    margin-top: 119px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 #content{
@@ -142,12 +154,12 @@ a.info-box{
     margin:auto;
     margin-top: 12px;
     padding: 10px;
-  
 }
 
 #info-box-full img{
-    width: 100%;
-    height: 300px;
+    display: block;
+    margin: auto;
+    width: 40%;    
 }
 
 
@@ -201,4 +213,5 @@ textarea{
     font-weight: 600;
     margin: 12px 0;
     padding: 8px 0;
+    
 }
